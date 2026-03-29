@@ -48,7 +48,10 @@
     "gigsCompleted": 31,
     "rating": 4.7,
     "bio": "Specialist in government data digitisation. Worked on land record and RMIS entry.",
-    "portfolio": ["Champhai land record digitisation", "RMIS data entry — 3 BDOs"]
+    "portfolio": [
+      "Champhai land record digitisation",
+      "RMIS data entry — 3 BDOs"
+    ]
   },
   {
     "id": "FL-004",
@@ -82,7 +85,10 @@
     "gigsCompleted": 38,
     "rating": 4.8,
     "bio": "Designer creating visual content for local businesses, NGOs and government campaigns.",
-    "portfolio": ["DIPR Mizoram social media posts", "Chapchar Kut festival branding"]
+    "portfolio": [
+      "DIPR Mizoram social media posts",
+      "Chapchar Kut festival branding"
+    ]
   },
   {
     "id": "FL-006",
@@ -99,6 +105,9 @@
     "gigsCompleted": 12,
     "rating": 4.9,
     "bio": "Master weaver with 20 years experience. Now teaching and consulting for craft businesses.",
-    "portfolio": ["Serchhip craft cooperative training", "Puan exhibition Aizawl 2024"]
+    "portfolio": [
+      "Serchhip craft cooperative training",
+      "Puan exhibition Aizawl 2024"
+    ]
   }
 ]

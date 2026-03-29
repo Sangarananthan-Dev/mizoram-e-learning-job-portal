@@ -11,8 +11,8 @@ export default function HeroSection({ tracks, stats }) {
             Learn local. Work global.
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-[var(--color-copy)]">
-            Mizoram&apos;s skill platform, built for our people, our crafts, and our future.
-            Learn from people who know Mizoram. Work from anywhere.
+            Mizoram&apos;s skill platform, built for our people, our crafts, and
+            our future. Learn from people who know Mizoram. Work from anywhere.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -29,16 +29,34 @@ export default function HeroSection({ tracks, stats }) {
               className="section-card p-4"
               style={{ borderLeftColor: "var(--color-terracotta)" }}
             >
-              <p className="text-2xl font-bold text-[var(--color-heading)]">{stats.coursesAvailable}</p>
-              <p className="fine-copy mt-2">Courses shaped around real Mizoram opportunities.</p>
+              <p className="text-2xl font-bold text-[var(--color-heading)]">
+                {stats.coursesAvailable}
+              </p>
+              <p className="fine-copy mt-2">
+                Courses shaped around real Mizoram opportunities.
+              </p>
             </div>
-            <div className="section-card p-4" style={{ borderLeftColor: "var(--color-slate)" }}>
-              <p className="text-2xl font-bold text-[var(--color-heading)]">{stats.activeFreelancers}</p>
-              <p className="fine-copy mt-2">Freelancers already visible to departments and clients.</p>
+            <div
+              className="section-card p-4"
+              style={{ borderLeftColor: "var(--color-slate)" }}
+            >
+              <p className="text-2xl font-bold text-[var(--color-heading)]">
+                {stats.activeFreelancers}
+              </p>
+              <p className="fine-copy mt-2">
+                Freelancers already visible to departments and clients.
+              </p>
             </div>
-            <div className="section-card p-4" style={{ borderLeftColor: "var(--color-moss)" }}>
-              <p className="text-2xl font-bold text-[var(--color-heading)]">{stats.districtsReached}</p>
-              <p className="fine-copy mt-2">Districts reached with training and earning pathways.</p>
+            <div
+              className="section-card p-4"
+              style={{ borderLeftColor: "var(--color-moss)" }}
+            >
+              <p className="text-2xl font-bold text-[var(--color-heading)]">
+                {stats.districtsReached}
+              </p>
+              <p className="fine-copy mt-2">
+                Districts reached with training and earning pathways.
+              </p>
             </div>
           </div>
         </div>

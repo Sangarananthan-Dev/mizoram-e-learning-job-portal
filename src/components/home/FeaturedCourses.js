@@ -3,7 +3,7 @@ import CourseCard from "@/components/learn/CourseCard";
 
 export default function FeaturedCourses({ courses }) {
   return (
-    <section className="shell mt-18">
+    <section className="shell mt-16 lg:mt-20">
       <SectionHeading
         eyebrow="Featured Courses"
         title="Courses built around local strength"

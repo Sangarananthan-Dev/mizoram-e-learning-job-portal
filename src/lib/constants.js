@@ -12,8 +12,7 @@ export const domainMeta = {
     shortLabel: "IT",
     description:
       "Build digital skills for government services, remote work, design, and data-led operations.",
-    why:
-      "Digitisation is moving fast across Mizoram. This track prepares youth and officers for local systems and remote work alike.",
+    why: "Digitisation is moving fast across Mizoram. This track prepares youth and officers for local systems and remote work alike.",
     image:
       "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1400&q=80",
   },
@@ -23,8 +22,7 @@ export const domainMeta = {
     shortLabel: "Craft",
     description:
       "Turn weaving, bamboo work, and product storytelling into stronger market access and stable income.",
-    why:
-      "Mizo craft traditions already hold value. This track connects heritage skills with commerce, pricing, packaging, and online selling.",
+    why: "Mizo craft traditions already hold value. This track connects heritage skills with commerce, pricing, packaging, and online selling.",
     image:
       "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=80",
   },
@@ -34,8 +32,7 @@ export const domainMeta = {
     shortLabel: "Tourism",
     description:
       "Train hosts, guides, and operators to deliver warm visitor experiences rooted in local knowledge.",
-    why:
-      "Tourism growth depends on trained people, not just beautiful places. This track supports homestays, guides, safety, and hospitality.",
+    why: "Tourism growth depends on trained people, not just beautiful places. This track supports homestays, guides, safety, and hospitality.",
     image:
       "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1400&q=80",
   },
@@ -45,8 +42,7 @@ export const domainMeta = {
     shortLabel: "Agriculture",
     description:
       "Strengthen bamboo farming, organic certification, market readiness, and farm operations.",
-    why:
-      "Organic and bamboo value chains need trained record-keepers, processors, and market connectors alongside growers.",
+    why: "Organic and bamboo value chains need trained record-keepers, processors, and market connectors alongside growers.",
     image:
       "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?auto=format&fit=crop&w=1400&q=80",
   },
@@ -79,7 +75,11 @@ export const courseDetailContent = {
     syllabus: [
       {
         title: "Foundations of the Web",
-        lessons: ["How the web works", "HTML structure", "Text, links, and media"],
+        lessons: [
+          "How the web works",
+          "HTML structure",
+          "Text, links, and media",
+        ],
       },
       {
         title: "Styling with Confidence",
@@ -87,7 +87,11 @@ export const courseDetailContent = {
       },
       {
         title: "Interactive Basics",
-        lessons: ["JavaScript essentials", "Forms and validation", "Project build week"],
+        lessons: [
+          "JavaScript essentials",
+          "Forms and validation",
+          "Project build week",
+        ],
       },
     ],
   },
@@ -104,7 +108,11 @@ export const courseDetailContent = {
       },
       {
         title: "Data Quality & Security",
-        lessons: ["Entry standards", "Verification steps", "Access and safety basics"],
+        lessons: [
+          "Entry standards",
+          "Verification steps",
+          "Access and safety basics",
+        ],
       },
       {
         title: "Office Simulations",
@@ -125,11 +133,19 @@ export const courseDetailContent = {
       },
       {
         title: "Product Readiness",
-        lessons: ["Finishing quality", "Pricing and costing", "Packaging basics"],
+        lessons: [
+          "Finishing quality",
+          "Pricing and costing",
+          "Packaging basics",
+        ],
       },
       {
         title: "Selling with Story",
-        lessons: ["Product photography", "Writing listings", "Customer communication"],
+        lessons: [
+          "Product photography",
+          "Writing listings",
+          "Customer communication",
+        ],
       },
     ],
   },
@@ -142,7 +158,11 @@ export const courseDetailContent = {
     syllabus: [
       {
         title: "Homestay Standards",
-        lessons: ["Room readiness", "Guest journey mapping", "Registration checklist"],
+        lessons: [
+          "Room readiness",
+          "Guest journey mapping",
+          "Registration checklist",
+        ],
       },
       {
         title: "Hospitality Basics",

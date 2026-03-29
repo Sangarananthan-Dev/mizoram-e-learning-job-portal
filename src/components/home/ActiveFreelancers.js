@@ -3,7 +3,7 @@ import FreelancerCard from "@/components/freelance/FreelancerCard";
 
 export default function ActiveFreelancers({ freelancers }) {
   return (
-    <section className="shell mt-18">
+    <section className="shell mt-16 lg:mt-20">
       <SectionHeading
         eyebrow="Active Freelancers"
         title="Learners who are already earning"
@@ -12,7 +12,11 @@ export default function ActiveFreelancers({ freelancers }) {
 
       <div className="mt-8 grid gap-4">
         {freelancers.map((freelancer) => (
-          <FreelancerCard key={freelancer.id} freelancer={freelancer} horizontal />
+          <FreelancerCard
+            key={freelancer.id}
+            freelancer={freelancer}
+            horizontal
+          />
         ))}
       </div>
     </section>
