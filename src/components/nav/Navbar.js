@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
 
 const links = [
   { href: "/learn", label: "Learn" },
@@ -12,7 +11,6 @@ const links = [
 
 export default function Navbar() {
   const pathname = usePathname();
-  const [open, setOpen] = useState(false);
 
   return (
     <header className="sticky top-0 z-30 border-b border-[var(--color-border)] bg-[rgba(247,244,239,0.96)] backdrop-blur">
@@ -21,7 +19,7 @@ export default function Navbar() {
           href="/"
           className="display-heading text-2xl text-[var(--color-terracotta)]"
         >
-          Zawlbuk
+          Mizoram SkillLink
         </Link>
 
         <nav className="hidden items-center gap-6 text-sm font-semibold text-[var(--color-copy)] md:flex">
@@ -47,50 +45,15 @@ export default function Navbar() {
           })}
         </nav>
 
-        <div className="hidden items-center gap-3 md:flex">
-          <Link href="/dashboard" className="button-tertiary">
+        <div className="flex items-center gap-2 sm:gap-3">
+          <Link href="/dashboard" className="button-tertiary px-3 sm:px-4">
             Dashboard
           </Link>
-          <Link href="/learn" className="button-primary">
+          <Link href="/learn" className="button-primary px-3 sm:px-4">
             Join Free
           </Link>
         </div>
-
-        <button
-          type="button"
-          aria-label="Toggle navigation"
-          className="button-tertiary md:hidden"
-          onClick={() => setOpen((value) => !value)}
-        >
-          Menu
-        </button>
       </div>
-
-      {open
-        ? <div className="shell border-t border-[var(--color-border)] py-4 md:hidden">
-            <nav className="flex flex-col gap-3 text-sm font-semibold text-[var(--color-copy)]">
-              {links.map((link) => (
-                <Link
-                  key={link.href}
-                  href={link.href}
-                  onClick={() => setOpen(false)}
-                >
-                  {link.label}
-                </Link>
-              ))}
-              <Link href="/dashboard" onClick={() => setOpen(false)}>
-                Dashboard
-              </Link>
-              <Link
-                href="/learn"
-                className="button-primary mt-2"
-                onClick={() => setOpen(false)}
-              >
-                Join Free
-              </Link>
-            </nav>
-          </div>
-        : null}
     </header>
   );
 }

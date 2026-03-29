@@ -1,7 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
 
 import DomainPill from "@/components/common/DomainPill";
+import SmartImage from "@/components/common/SmartImage";
 import { availabilityMeta, domainMeta } from "@/lib/constants";
 
 export default function FreelancerProfile({ freelancer }) {
@@ -17,7 +17,7 @@ export default function FreelancerProfile({ freelancer }) {
             style={{ borderLeftColor: `#${freelancer.domainColor}` }}
           >
             <div className="relative aspect-[16/7]">
-              <Image
+              <SmartImage
                 src={domain.image}
                 alt={freelancer.domain}
                 fill

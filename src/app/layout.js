@@ -2,8 +2,8 @@ import "./globals.css";
 
 export const metadata = {
   title: {
-    default: "Zawlbuk",
-    template: "%s | Zawlbuk",
+    default: "Mizoram SkillLink",
+    template: "%s | Mizoram SkillLink",
   },
   description:
     "Learn local. Work global. A Mizoram skill development and freelance platform.",

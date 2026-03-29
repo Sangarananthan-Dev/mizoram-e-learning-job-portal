@@ -10,8 +10,7 @@ export const domainMeta = {
     tag: "IT",
     color: "#3D5A80",
     shortLabel: "IT",
-    description:
-      "Build digital skills for government services, remote work, design, and data-led operations.",
+    description: "Digital skills for government work, design, and remote jobs.",
     why: "Digitisation is moving fast across Mizoram. This track prepares youth and officers for local systems and remote work alike.",
     image:
       "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1400&q=80",
@@ -20,28 +19,27 @@ export const domainMeta = {
     tag: "Craft",
     color: "#B85042",
     shortLabel: "Craft",
-    description:
-      "Turn weaving, bamboo work, and product storytelling into stronger market access and stable income.",
+    description: "Craft, weaving, and bamboo skills shaped for market access.",
     why: "Mizo craft traditions already hold value. This track connects heritage skills with commerce, pricing, packaging, and online selling.",
     image:
-      "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&w=1400&q=80",
+      "https://www.tourmyindia.com/socialimg/art-and-crafts-mizoram-tourism.jpg",
   },
   "Tourism & Homestay Management": {
     tag: "Tourism",
     color: "#4A7C59",
     shortLabel: "Tourism",
     description:
-      "Train hosts, guides, and operators to deliver warm visitor experiences rooted in local knowledge.",
+      "Homestay, guide, and hospitality skills for visitor-ready service.",
     why: "Tourism growth depends on trained people, not just beautiful places. This track supports homestays, guides, safety, and hospitality.",
     image:
-      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?auto=format&fit=crop&w=1400&q=80",
+      "https://mizoramtourism.com/post_images/673ac0cb0acce_626a2a886ad50_IMG_1023.jpg",
   },
   "Agriculture & Organic Commerce": {
     tag: "Agriculture",
     color: "#4A7C59",
     shortLabel: "Agriculture",
     description:
-      "Strengthen bamboo farming, organic certification, market readiness, and farm operations.",
+      "Organic farming, bamboo value chains, and market-ready operations.",
     why: "Organic and bamboo value chains need trained record-keepers, processors, and market connectors alongside growers.",
     image:
       "https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?auto=format&fit=crop&w=1400&q=80",

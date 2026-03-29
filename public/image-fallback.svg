@@ -1,0 +1,25 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#F7F4EF"/>
+  <rect x="88" y="88" width="1024" height="624" rx="20" fill="#FFFFFF" stroke="#E8E4DE" stroke-width="2"/>
+  <rect x="88" y="88" width="12" height="624" rx="6" fill="#B85042"/>
+  <rect x="164" y="176" width="320" height="320" rx="18" fill="#F2EEE7"/>
+  <path d="M260 406C260 337.517 315.517 282 384 282V282C452.483 282 508 337.517 508 406V406" stroke="#4A7C59" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="324" cy="346" r="18" fill="#3D5A80"/>
+  <circle cx="444" cy="346" r="18" fill="#3D5A80"/>
+  <rect x="304" y="428" width="160" height="18" rx="9" fill="#B85042"/>
+  <path d="M602 246H938" stroke="#E8E4DE" stroke-width="18" stroke-linecap="round"/>
+  <path d="M602 316H968" stroke="#E8E4DE" stroke-width="18" stroke-linecap="round"/>
+  <path d="M602 386H900" stroke="#E8E4DE" stroke-width="18" stroke-linecap="round"/>
+  <rect x="602" y="462" width="222" height="52" rx="12" fill="#3D5A80"/>
+  <rect x="602" y="546" width="146" height="20" rx="10" fill="#D9D1C7"/>
+  <rect x="602" y="586" width="266" height="20" rx="10" fill="#D9D1C7"/>
+  <text x="602" y="211" fill="#1A1A2E" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="46" font-weight="700">
+    Image unavailable
+  </text>
+  <text x="602" y="496" fill="#FFFFFF" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="24" font-weight="700">
+    SKILL LINK
+  </text>
+  <text x="164" y="568" fill="#4A4A5A" font-family="Plus Jakarta Sans, Arial, sans-serif" font-size="28" font-weight="600">
+    Showing local placeholder art instead.
+  </text>
+</svg>

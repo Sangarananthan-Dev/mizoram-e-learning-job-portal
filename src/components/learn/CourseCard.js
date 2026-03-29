@@ -1,10 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 
 import DomainPill from "@/components/common/DomainPill";
 import ProgressBar from "@/components/common/ProgressBar";
+import SmartImage from "@/components/common/SmartImage";
 import usePersistentState from "@/lib/usePersistentState";
 
 export default function CourseCard({ course }) {
@@ -36,7 +36,7 @@ export default function CourseCard({ course }) {
         href={`/learn/${course.id}`}
         className="relative block aspect-[16/10]"
       >
-        <Image
+        <SmartImage
           src={course.thumbnail}
           alt={course.title}
           fill

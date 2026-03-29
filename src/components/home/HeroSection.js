@@ -1,18 +1,20 @@
-import Image from "next/image";
 import Link from "next/link";
+
+import SmartImage from "@/components/common/SmartImage";
 
 export default function HeroSection({ tracks, stats }) {
   return (
     <section className="shell">
-      <div className="grid gap-10 py-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
+      <div className="grid gap-10 py-8 lg:grid-cols-[1.05fr_0.95fr] lg:items-center">
         <div>
           <span className="eyebrow">Mizoram Skill Platform</span>
           <h1 className="display-heading max-w-3xl text-5xl leading-tight sm:text-6xl">
-            Learn local. Work global.
+            Learn from Mizoram. Build for anywhere.
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-[var(--color-copy)]">
-            Mizoram&apos;s skill platform, built for our people, our crafts, and
-            our future. Learn from people who know Mizoram. Work from anywhere.
+            Mizoram SkillLink is built for our people, our crafts, and our
+            future. Learn from people who know Mizoram. Step into work that
+            travels beyond location.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
@@ -68,8 +70,8 @@ export default function HeroSection({ tracks, stats }) {
               className="section-card overflow-hidden"
               style={{ borderLeftColor: track.color }}
             >
-              <div className="relative aspect-[5/4]">
-                <Image
+              <div className="relative aspect-[16/10]">
+                <SmartImage
                   src={track.image}
                   alt={track.domain}
                   fill

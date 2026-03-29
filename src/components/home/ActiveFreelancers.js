@@ -7,7 +7,7 @@ export default function ActiveFreelancers({ freelancers }) {
       <SectionHeading
         eyebrow="Active Freelancers"
         title="Learners who are already earning"
-        description="Every certificate opens a pathway into the freelance side of Zawlbuk, so learning can turn into visible work opportunities."
+        description="Every certificate opens a pathway into the freelance side of Mizoram SkillLink, so learning can turn into visible work opportunities."
       />
 
       <div className="mt-8 grid gap-4">

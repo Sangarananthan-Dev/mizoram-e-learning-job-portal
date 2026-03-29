@@ -29,7 +29,7 @@ export default function Home() {
         <SectionHeading
           eyebrow="How It Works"
           title="One platform. One journey from learning to earning."
-          description="Zawlbuk is not two disconnected dashboards. A learner completes a course, earns a certificate, and moves directly into the freelance marketplace with visible skills and proof of work."
+          description="Mizoram SkillLink is not two disconnected dashboards. A learner completes a course, earns a certificate, and moves directly into the freelance marketplace with visible skills and proof of work."
         />
 
         <div className="mt-8 grid gap-5 lg:grid-cols-3">

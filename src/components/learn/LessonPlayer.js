@@ -1,7 +1,8 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
+
+import SmartImage from "@/components/common/SmartImage";
 
 export default function LessonPlayer({ course }) {
   const lessons = course.detail.syllabus.flatMap((module, moduleIndex) =>
@@ -20,7 +21,7 @@ export default function LessonPlayer({ course }) {
         style={{ borderLeftColor: `#${course.domainColor}` }}
       >
         <div className="relative aspect-video">
-          <Image
+          <SmartImage
             src={course.thumbnail}
             alt={course.title}
             fill
